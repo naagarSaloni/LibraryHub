@@ -53,9 +53,10 @@ public PasswordEncoder passwordEncoder() {
 
         // Frontend URL
         config.setAllowedOrigins(List.of(
-        "http://localhost:5173",
-        "http://192.168.1.104:5173"));
-
+    "http://localhost:5173",
+    "http://192.168.1.104:5173",
+    "https://library-g97qoult1-mindspark1.vercel.app"
+));
         // Allowed methods
         config.setAllowedMethods(List.of(
                 "GET", "POST", "PUT", "DELETE", "OPTIONS"
