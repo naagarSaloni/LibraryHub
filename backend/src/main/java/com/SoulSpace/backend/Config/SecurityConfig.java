@@ -52,11 +52,11 @@ public PasswordEncoder passwordEncoder() {
         CorsConfiguration config = new CorsConfiguration();
 
         // Frontend URL
-        config.setAllowedOrigins(List.of(
+        config.setAllowedOriginPatterns(List.of(
     "http://localhost:5173",
     "http://192.168.1.104:5173",
-    "https://library-hmffp9htu-mindspark1.vercel.app"
-));   // Allowed methods
+    "https://*.vercel.app"
+));  // Allowed methods
         config.setAllowedMethods(List.of(
                 "GET", "POST", "PUT", "DELETE", "OPTIONS"
         ));
