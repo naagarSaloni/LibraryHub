@@ -1,4 +1,4 @@
-import './GlassCard.css';
+import './Glasscard.css';
 import CardButton from './CardButton';
 
 function GlassCard({ title, imgSrc, buttonText, onButtonClick }) {
