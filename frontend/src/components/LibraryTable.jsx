@@ -131,8 +131,8 @@ return (
 // ===============================
 
 
-if(hallPurpose==="General Reading"){
 
+if(hallPurpose === "Reading"){
 
 return (
 
