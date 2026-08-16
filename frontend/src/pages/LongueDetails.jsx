@@ -19,13 +19,13 @@ function LongueDetails() {
     const fetchData = async () => {
       try {
         const loungeResponse = await fetch(
-          `http://localhost:8080/lounges/${id}`
+          `https://libraryhub-backend-rity.onrender.com/lounges/${id}`
         );
 
         const loungeData = await loungeResponse.json();
 
         const eventResponse = await fetch(
-          `http://localhost:8080/events/lounge/${id}`
+          `https://libraryhub-backend-rity.onrender.com/events/lounge/${id}`
         );
 
         const eventData = await eventResponse.json();

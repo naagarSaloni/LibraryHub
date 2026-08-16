@@ -37,7 +37,7 @@ function Register() {
 
     try {
       const response = await axios.post(
-        "http://localhost:8080/api/users",
+        "https://libraryhub-backend-rity.onrender.com/api/users",
         formData
       );
 

@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:8080/api";
+const API_URL = "https://libraryhub-backend-rity.onrender.com/api";
 
 
 const handleResponse = async (response) => {

@@ -40,7 +40,7 @@ function Books() {
     const fetchCategories = async () => {
       try {
         const response = await fetch(
-          "http://localhost:8080/api/categories"
+          "https://libraryhub-backend-rity.onrender.com/api/categories"
         );
 
         if (!response.ok) {

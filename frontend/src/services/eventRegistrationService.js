@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:8080/events";
+const BASE_URL = "https://libraryhub-backend-rity.onrender.com/events";
 
 const eventRegistrationService = {
   registerForEvent: (userId, eventId) => {

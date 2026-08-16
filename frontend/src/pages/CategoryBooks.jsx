@@ -40,7 +40,7 @@ const categoryImages = {
       try {
 
         const response = await fetch(
-          `http://localhost:8080/api/categories/category/${category}`
+          `https://libraryhub-backend-rity.onrender.com/api/categories/category/${category}`
         );
 
         if (!response.ok) {

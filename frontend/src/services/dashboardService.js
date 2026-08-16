@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:8080/api/dashboard";
+const BASE_URL = "https://libraryhub-backend-rity.onrender.com/api/dashboard";
 
 const dashboardService = {
 

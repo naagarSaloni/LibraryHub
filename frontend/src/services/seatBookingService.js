@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:8080/api/seat-bookings";
+const BASE_URL = "https://libraryhub-backend-rity.onrender.com/api/seat-bookings";
 
 const seatBookingService = {
 

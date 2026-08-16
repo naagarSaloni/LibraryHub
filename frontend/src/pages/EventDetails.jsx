@@ -15,7 +15,7 @@ function EventDetails() {
   const [toast, setToast] = useState("");
 
   // Works from your PC and phone on the same Wi-Fi
-  const API_BASE_URL = "http://localhost:8080";
+  const API_BASE_URL = "https://libraryhub-backend-rity.onrender.com";
 
   useEffect(() => {
     window.scrollTo(0, 0);

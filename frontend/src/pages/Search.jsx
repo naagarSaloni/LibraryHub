@@ -36,7 +36,7 @@ function Search() {
 
       try {
         const response = await fetch(
-          `http://localhost:8080/api/search?query=${query}&type=${type}`
+          `https://libraryhub-backend-rity.onrender.com/api/search?query=${query}&type=${type}`
         );
 
         const data = await response.json();

@@ -88,7 +88,7 @@ function Longues() {
   // ✅ API fetch (your version)
   const fetchLounges = async () => {
     try {
-      const response = await fetch("http://localhost:8080/api/lounges");
+      const response = await fetch("https://libraryhub-backend-rity.onrender.com/api/lounges");
       const data = await response.json();
 
       const loungesWithIcons = data.map((lounge, index) => ({

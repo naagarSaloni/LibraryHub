@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE = "http://localhost:8080/api/halls";
+const API_BASE = "https://libraryhub-backend-rity.onrender.com/api/halls";
 
 const hallService = {
   // Get all halls
